@@ -6,10 +6,10 @@ using namespace std;
 /*
 If the number consists of other primes than 2
  and 3
- then the answer is -1. Otherwise, let cnt2
- be the number of twos in the factorization of n
- and cnt3
- be the number of threes in the factorization of n
+ then the answer is -1. 
+ 
+ Otherwise, let cnt2 be the number of twos in the factorization of n
+ and cnt3 be the number of threes in the factorization of n
 . If cnt2>cnt3
  then the answer is -1 because we can't get rid of all twos. Otherwise, the answer is (cnt3−cnt2)+cnt3
 */
@@ -40,6 +40,6 @@ int main(){
         }
     }
 
-    
+
 
 }
